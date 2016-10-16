@@ -14,7 +14,7 @@ ruby scrape_dynasty.rb
 ```
 
 ### Sample output
-```shell
+```
 mlee@Marks-Air-3 ~ dynasty_scraper (master)$ ruby scrape_dynasty.rb 
 Enter league id:
 1234
