@@ -16,13 +16,15 @@ ruby scrape_dynasty.rb
 ### Sample output
 ```shell
 mlee@Marks-Air-3 ~ dynasty_scraper (master)$ ruby scrape_dynasty.rb 
+Enter league id:
+1234
 Enter season to fetch stats for:
 2016
 Enter position to fetch stats for (QB, RB, RB_WR, WR, WR_TE, TE):
 RB
 Enter ranking to start at (default: 0):
 
-Fetching RB player rankings from: http://games.espn.go.com/ffl/freeagency?leagueId=138744&teamId=10&seasonId=2016&avail=-1&slotCategoryId=2&startIndex=0
+Fetching RB player rankings from: http://games.espn.go.com/ffl/freeagency?leagueId=1234&teamId=10&seasonId=2016&avail=-1&slotCategoryId=2&startIndex=0
 
 Player Name - Total Points - Total Games Played - Average Per Game
 David Johnson(2508176) - 97.5 - 5 - 19.5
